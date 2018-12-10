@@ -10,12 +10,12 @@ import static org.junit.Assert.assertThat;
  *@version $Id$
  *@since 0.1
  */
-public class CalculateTest{
+public class CalculateTest {
 	/**
 	 *Test метода echo
 	 */
 @Test	 
-	public void whenTakeNameThenEchoPlusName(){
+	public void whenTakeNameThenEchoPlusName() {
 		//входне значение: параметру name задаем значение Shulga		
 		String input = "Shulga";
 		//ожидаемое значение
@@ -25,7 +25,7 @@ public class CalculateTest{
 		//выполняем метод echo с параметром input, записываем в переменную rusult
 		String result = calc.echo(input);
 		//сравниваем значения result и expect
-		assertThat(result,is(expect));
+		assertThat(result, is(expect));
 	}
 }	
 		
