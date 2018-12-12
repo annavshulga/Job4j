@@ -14,7 +14,7 @@ public class CalculateTest {
 	/**
 	 *Test метода echo
 	 */
-@Test	 
+	@Test
 	public void whenTakeNameThenEchoPlusName() {
 		//входне значение: параметру name задаем значение Shulga		
 		String input = "Shulga";
