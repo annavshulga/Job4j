@@ -8,6 +8,7 @@ public class Calculate {
  *Конструктор, вывод строки на консоль.
  *@param args описание аргумента метода.
  */
+	@SuppressWarnings("SpellCheckingInspection")
 	public static void main(String[] args) {
 		System.out.println("Y tarakana ysiki");
 	}
