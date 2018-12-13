@@ -22,7 +22,7 @@ public class CalculateTest {
 		String expect = "Echo: Shulga";
 		//создаем новый объект
 		Calculate calc = new Calculate();
-		//выполняем метод echo с параметром input, записываем в переменную rusult
+		//выполняем метод echo с параметром input, записываем в переменную result
 		String result = calc.echo(input);
 		//сравниваем значения result и expect
 		assertThat(result, is(expect));
