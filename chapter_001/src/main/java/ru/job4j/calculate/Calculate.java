@@ -4,19 +4,19 @@ package ru.job4j.calculate;
  *@author Anna Shulga (annavalentinshul@mail.ru)
  */
 public class Calculate {
-/**
- *Конструктор, вывод строки на консоль.
- *@param args описание аргумента метода.
- */
+	/**
+	 *Конструктор, вывод строки на консоль.
+	 *@param args описание аргумента метода.
+	 */
 	@SuppressWarnings("SpellCheckingInspection")
 	public static void main(String[] args) {
 		System.out.println("Y tarakana ysiki");
 	}
-/**
- *Method echo.
- *@param name Your name
- *@return Echo plus Your name
- */
+	/**
+	 *Method echo.
+	 *@param name Your name
+	 *@return Echo plus Your name
+	 */
 	public String echo(String name) {
 		return "Echo: " + name;
 	}
