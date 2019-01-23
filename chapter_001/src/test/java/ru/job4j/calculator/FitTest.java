@@ -19,7 +19,7 @@ public class FitTest {
         assertThat(result, closeTo(92.0, 0.1));
     }
     @Test
-    public void womanWeight(){
+    public void womanWeight() {
        Fit fit = new Fit();
        double result = fit.womanWeight(170D);
        assertThat(result, closeTo(69.0, 0.1));

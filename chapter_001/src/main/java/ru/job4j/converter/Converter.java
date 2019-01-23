@@ -11,7 +11,7 @@ public class Converter {
      * @return доллары.
      */
     public double rubToDol(double value){
-        return value/66.47;
+        return value / 66.47;
     }
     /**
      * Конвертируем доллары в рубли.
@@ -19,7 +19,7 @@ public class Converter {
      * @return рубли.
      */
     public double dolToRub(double value) {
-        return value*66.47;
+        return value * 66.47;
     }
     /**
      * Конвертируем рубли в евро.
@@ -27,7 +27,7 @@ public class Converter {
      * @return евро.
      */
     public double rubToEuro(double value) {
-        return value/75.52;
+        return value / 75.52;
     }
     /**
      * Конвертируем евро в рубли.
@@ -35,6 +35,6 @@ public class Converter {
      * @return рубли.
      */
     public double euroToRub(double value) {
-        return value*75.52;
+        return value * 75.52;
     }
 }

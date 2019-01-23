@@ -11,7 +11,7 @@ public class Fit {
      * @return Идеальный вес.
      */
     public double manWeight(double height) {
-        return 1.15*(height-100D);
+        return 1.15 * (height - 100D);
     }
     /**
      * Идельальный рост женщины.
@@ -19,6 +19,6 @@ public class Fit {
      * @return Идеальный вес.
      */
     public double womanWeight(double height) {
-        return 1.15*(height-110D);
+        return 1.15 * (height - 110D);
     }
 }
