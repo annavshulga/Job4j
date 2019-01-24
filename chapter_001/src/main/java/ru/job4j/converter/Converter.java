@@ -10,7 +10,7 @@ public class Converter {
      * @param value рубли.
      * @return доллары.
      */
-    public double rubToDol(double value){
+    public double rubToDol(double value) {
         return value / 66.47;
     }
     /**
