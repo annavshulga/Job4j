@@ -16,4 +16,10 @@ public class MaxTest {
         Max a = new Max();
         assertThat(a.maximumTwo(3,4), is(4));
     }
+    @Test
+    public void when1And2And3Then3() {
+        Max a = new Max();
+        assertThat(a.maximumThree(1, 2, 3), is(3));
+    }
 }
+

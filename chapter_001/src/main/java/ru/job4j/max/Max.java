@@ -16,4 +16,14 @@ public class Max {
     public int maximumTwo(int first, int second) {
         return first > second ? first : second;
     }
+    /**
+     * Maximum of three numbers
+     * @param x Первео число
+     * @param y Второе число
+     * @param z Третье число
+     * @return Максимальное из трёх чисел
+     */
+    public int maximumThree(int x, int y, int z) {
+        return this.maximumTwo(this.maximumTwo(x, y), z);
+    }
 }
