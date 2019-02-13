@@ -7,6 +7,11 @@ package ru.job4j.loop;
  * @since 11.02.2019
  */
 public class Paint {
+    /**
+     * Рисуем пирамиду
+     * @param h Высота пирамиды
+     * @return Строка с символами пирамиды
+     */
     public String pyramid(int h) {
         StringBuilder screen = new StringBuilder();
         String ln = System.lineSeparator();
@@ -16,6 +21,40 @@ public class Paint {
                 else screen.append(" ");
             }
             screen.append(ln);
+        }
+        return screen.toString();
+    }
+
+    /**
+     * Рисуем правый теругольник в квадратике
+     * @param h Высота треугольника (квадратика)
+     * @return Строка с символами треугольника
+     */
+    public String rightTrgl(int h) {
+        StringBuilder screen = new StringBuilder();
+        for(int i = 1; i <= h; i++) {
+            for(int j = 1; j <= h; j++) {
+                if(j >= h - i + 1) screen.append("^");
+                else screen.append(" ");
+            }
+            screen.append(System.getProperty("line.separator"));
+        }
+        return screen.toString();
+    }
+
+    /**
+     * Рисуем левый треугольник в квадратике
+     * @param h Высота треугольника (квадратика)
+     * @return Строка с символами треугольника
+     */
+    public String leftTrgl(int h) {
+        StringBuilder screen = new StringBuilder();
+        for(int i = 1; i <= h; i++) {
+            for(int j = 1; j <= h; j++) {
+                if(j <= i) screen.append("^");
+                else screen.append(" ");
+            }
+            screen.append(System.getProperty("line.separator"));
         }
         return screen.toString();
     }
